@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f1f1f1;
+}
+
+.main_head{
+    position: relative;
+    bottom: 2px;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(90deg, #a45fba, #993bb8);
+    border-bottom: 7px solid gray;
+    
+}
+
+
+.p1, .p2, .p3, .p4, .p5, .p6{
+    position: relative;
+    z-index: 4;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.p1:hover, .p2:hover, .p3:hover, .p4:hover, .p5:hover, .p6:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+
+}
+.p1{
+    bottom: 40px;
+    left: 200px;
+}
+.p2{
+    bottom: 63px;
+    left: 1350px;
+}
+.p3{
+    bottom: 86px;
+    left: 1430px;
+}
+.p4{
+    bottom: 110px;
+    left: 1540px;
+    
+}
+.p5{
+    bottom: 133px;
+    left: 1640px;
+}
+.p6{
+    bottom: 157px;
+    left: 1730px;
+}
+.main_img{
+    z-index: 5;
+    width: 65px;
+    position: relative;
+    bottom: 190px;
+    left: 140px;
+    cursor: pointer;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 150px;
+    text-decoration: underline;
+
+}
+
+.main_block2{
+    width: 40%;
+    height: 40em;
+    background-color: #868686;
+    position: relative;
+    left: 10em;
+    bottom: 7em;
+    opacity: 0.3;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.main_h2{
+    position: relative;
+    bottom: 30em;
+    left: 20.5em;
+}
+.main_h2_1{
+    position: relative;
+    bottom: 26em;
+    left: 22em;
+}
+.main_h2_2{
+    position: relative;
+    bottom: 18em;
+    left: 20.7em;
+}
+.main_p{
+    font-size: 24px;
+    position: relative;
+    bottom: 28em;
+    right: 17em;
+    text-align: center;
+    color: #333333;
+    z-index: 1;
+}
+.main_img_1{
+    position: relative;
+    bottom: 42em;
+    left: 16em;
+}
+.main_p_1{
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    bottom: 17em;
+    right: 16em;
+    color: #333333;
+}
+.main_line{
+    position: relative;
+    width: 20%;
+    height: 13em;
+    bottom: 64em;
+    left: 22.5em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid;
+}
+.main_line_1{
+    position: relative;
+    width: 20%;
+    height: 1em;
+    border-bottom: 1px solid black;
+    bottom: 52em;
+    left: 22.5em;
+}
+.main_sourse{
+    position: absolute;
+    bottom: 10em;
+    left: 46em;
+}
+.main_img_2{
+    position: absolute;
+    left: 73em;
+    bottom: 28em;
+}
+
+.main_comments_1, .main_comments_2, .main_comments_3,
+.main_comments_4, .main_comments_5, .main_comments_6{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.main_comments{
+    position: relative;
+    font-size: 24px;
+    left: 56em;
+    bottom: 41em;
+}
+.main_comments_1{
+    bottom: 48em;
+    left: 22em;
+}
+.main_comments_2{
+    bottom: 48em;
+    left: 18em;
+    color: #407be3;
+}
+.main_comments_3{
+    bottom: 47em;
+    left: 22em;
+}
+.main_comments_4{
+    bottom: 47em;
+    left: 18em;
+    color: #407be3;
+}
+.main_comments_5{
+    bottom: 46em;
+    left: 22em;
+}
+.main_comments_6{
+    bottom: 46em;
+    left: 20em;
+    color: #407be3;
+}
+.main_citation{
+    position: relative;
+    font-size: 26px;
+    bottom: 37em;
+    left: 10em;
+    color: #610B73;
+}
+.main_line_2{
+    position: relative;
+    width: 30%;
+    height: 1em;
+    border-bottom: 1px solid black;
+    bottom: 61em;
+    left: 17em;
+}
+
+.main_figura_1, .main_figura_2,
+.main_figura_3, .main_figura_4,
+.main_social{
+    position: absolute;
+}
+.main_figura_1{
+    bottom: 14em;
+    left: 50.6em;
+}
+.main_figura_2{
+    z-index: 0;
+    bottom: 32em;
+    left: 8.9em;
+}
+.main_figura_3{
+    bottom: -2em;
+    left: 9em;
+}
+.main_figura_4{
+    bottom: 1em;
+    left: 55em;
+}
+.main_social{
+    bottom: 1em;
+    left: 106em;
+}
+.main_social:hover{
+    cursor: pointer;
+}
+.main_button{
+    background-color: #866099;
+    border: 2px solid black;
+    width: 130px;
+    height: 30px;
+    border-radius: 20%;
+    position: absolute;
+    bottom: 35em;
+    left: 110em;
+}
+.main_button:hover{
+    background-color: #543b61;
+    color: gray;
+    text-decoration-color: gray;
+}
+div a{
+    text-decoration-color: white;
+    color: white;
+}
+p a{
+    text-decoration: none;
+    color: black;
+}
+
