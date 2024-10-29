@@ -193,6 +193,9 @@ hr{
     cursor: pointer;
     
 }
+.main_img1{
+    display: none;
+}
 
 @media (max-width: 400px){
     .main_block{
@@ -256,15 +259,16 @@ hr{
 }
 .main_img{
     width: 65px;
-    top: -90px;
+    top: -74px;
     left: 10px; 
 }
 .main_img1{
+    display: block;
     position: relative;
     z-index: 4;
     width: 60px;
-    bottom: 80px;
-    left: 250px;
+    bottom: 130px;
+    left: 320px;
 }
 
 }
